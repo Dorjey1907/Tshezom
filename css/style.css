@@ -1,0 +1,68 @@
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(27, 185, 185);
+    font-size: 20px;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+  
+nav ul img{
+    width: 10%;
+    height: 15%;
+    padding: 10px;
+}
+
+nav ul li{
+    float: right;
+    border-right:1px solid #bbb;  
+    padding: 2%;
+}
+
+nav ul li:last-child {
+    border-right: none;
+} 
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav ul li a:hover:not(.active) {
+    background-color: #111;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.active {
+    background-color: #39c018;
+    border-radius: 20%;
+    border-style: double;
+}
+
+.active:hover{
+    background-color: #4a22a7;
+    border-color: white;
+    color: azure;
+}
+
+/* Home page css */
+.background{
+    background-image: url(https://media.istockphoto.com/id/1363398400/photo/woman-traveler-in-europa-alhambra-in-spain.jpg?b=1&s=170667a&w=0&k=20&c=5feqq_RYaiV2l8mk2ah8pIuDN4jk24jhsCi66DMxy-k=);
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#description{
+    color:black;
+    font-size: 20px;
+}
+
